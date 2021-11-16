@@ -1,0 +1,439 @@
+{
+  "theme": {
+    "name": "BillboardTheme",
+    "styles": [
+      "default",
+      "purple",
+      "blue",
+      "turquoise",
+      "green",
+      "orange",
+      "red",
+      "pink"
+    ],
+    "version": "2.21",
+    "sharedTheme": {
+      "useHeader": true,
+      "useLogo": true,
+      "isPortalSupport": true
+    },
+    "customStyles": {
+      "mainBackgroundColor": null
+    }
+  },
+  "portalUrl": "https://geography-ui.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Peta Kebencanaan Kabupaten Sleman",
+  "subtitle": "with ArcGIS Web AppBuilder",
+  "keepAppState": true,
+  "logo": "images/app-logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 60,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_Search_Widget_20",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 15,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_ZoomSlider_Widget_21",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 15,
+          "top": 80,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_HomeButton_Widget_22",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 15,
+          "top": 120,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_MyLocation_Widget_23",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 15,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_Scalebar_Widget_24",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 15,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_Coordinate_Widget_25",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_OverviewMap_Widget_26",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.21",
+        "id": "widgets_Splash_Widget_27",
+        "name": "Splash"
+      },
+      {
+        "position": {
+          "right": 15,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_28",
+        "name": "HeatMapES5",
+        "version": "2.7",
+        "closeable": true,
+        "uri": "widgets/HeatMapES5/Widget"
+      },
+      {
+        "position": {
+          "right": 15,
+          "top": 60,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_29",
+        "name": "barChartCedar",
+        "version": "2.6",
+        "closeable": true,
+        "uri": "widgets/barChartCedar/Widget"
+      },
+      {
+        "position": {
+          "right": 15,
+          "top": 105,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_30",
+        "name": "Legend",
+        "version": "2.21",
+        "closeable": true,
+        "uri": "widgets/Legend/Widget",
+        "config": "configs/Legend/config__30.json"
+      },
+      {
+        "position": {
+          "right": 15,
+          "top": 150,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_31",
+        "name": "LayerList",
+        "version": "2.21",
+        "closeable": true,
+        "uri": "widgets/LayerList/Widget",
+        "config": "configs/LayerList/config__31.json"
+      },
+      {
+        "position": {
+          "right": 15,
+          "top": 195,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_32",
+        "name": "NearMe",
+        "version": "2.21",
+        "closeable": true,
+        "IsController": false,
+        "uri": "widgets/NearMe/Widget",
+        "config": "configs/NearMe/config__32.json"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "left": 15,
+          "top": 200,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_ExtentNavigate_Widget_33",
+        "name": "ExtentNavigate"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "left": 15,
+          "top": 160,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_FullScreen_Widget_34",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "bfd0888377c54ab7a81d1b092aa3d0e9",
+    "mapOptions": {
+      "extent": {
+        "xmin": 12263767.885515817,
+        "ymin": -882597.0639157848,
+        "xmax": 12331032.470406681,
+        "ymax": -840633.1353872797,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "https://geography-ui.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.21",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 0
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.21",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 1
+      }
+    ],
+    "groups": [],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 60,
+            "top": 10,
+            "relativeTo": "map"
+          },
+          "version": "2.21"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "left": 15,
+            "top": 10,
+            "relativeTo": "map"
+          },
+          "version": "2.21"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "position": {
+            "left": 15,
+            "top": 80,
+            "relativeTo": "map"
+          },
+          "version": "2.21"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "position": {
+            "left": 15,
+            "top": 120,
+            "relativeTo": "map"
+          },
+          "version": "2.21"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 15,
+            "bottom": 25,
+            "relativeTo": "map"
+          },
+          "version": "2.21"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 15,
+            "bottom": 5,
+            "relativeTo": "map"
+          },
+          "version": "2.21"
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0
+          },
+          "version": "2.21"
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.21"
+        },
+        {
+          "position": {
+            "right": 15,
+            "top": 53,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "right": 15,
+            "top": 103,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "right": 15,
+            "top": 148,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "right": 15,
+            "top": 193,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "right": 15,
+            "top": 238,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "left": 15,
+            "top": 200,
+            "relativeTo": "map"
+          },
+          "version": "2.21"
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "left": 15,
+            "top": 160,
+            "relativeTo": "map"
+          },
+          "version": "2.21"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.21",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  }
+}
